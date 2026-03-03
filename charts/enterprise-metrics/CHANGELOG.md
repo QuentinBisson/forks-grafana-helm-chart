@@ -70,7 +70,7 @@ Entries should include a reference to the Pull Request that introduced the chang
 
 ## 1.5.2
 
-* [CHANGE] Removed all references to Consul in the yaml files since GEM will be focused on deploying with memberlist. Deleted the multi-kv-consul-primary-values.yaml and multi-kv-memberlist-primary-values.yaml files since they assume you're running Consul as your primary or second kvstore. #674
+* [CHANGE] Removed all references to Consul in the YAML files since GEM will be focused on deploying with memberlist. Deleted the multi-kv-consul-primary-values.yaml and multi-kv-memberlist-primary-values.yaml files since they assume you're running Consul as your primary or second kvstore. #674
 
 ## 1.5.1
 
@@ -123,8 +123,8 @@ Entries should include a reference to the Pull Request that introduced the chang
 
 ## 1.3.5
 
-* [CHANGE] The GRPC port on the query-frontend and store-gateway Kubernetes Services have been changed to match the naming of all other services. #523
-* [FEATURE] Expose GRPC port on all GEM services. #523
+* [CHANGE] The gRPC port on the query-frontend and store-gateway Kubernetes Services have been changed to match the naming of all other services. #523
+* [FEATURE] Expose gRPC port on all GEM services. #523
 
 ## 1.3.4
 
